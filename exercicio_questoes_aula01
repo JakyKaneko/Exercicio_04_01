@@ -1,0 +1,23 @@
+Algoritmo "media"
+// Disciplina   : Criação de Aplicacoes e Sistemas
+// Professor   : Franklin
+// Descrição   : Questao 4 exercícios
+// Autor(a)    : Jaky Kaneko
+// Data atual  : 12/10/2022
+Var
+N1,N2,Media:real
+
+
+Inicio
+Escreva ("Digite o primeiro número: ")
+Leia (N1)
+Escreva ("Digite o segundo número: ")
+Leia (N2)
+Media <-(N1+N2)/2
+Se Media>=6 Entao
+Escreva ("Aprovado, sua nota foi: ", Media)
+Senao
+Escreva ("Reprovado,  sua nota foi: ", Media)
+FIMSE
+
+Fimalgoritmo
